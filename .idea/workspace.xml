@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +23,6 @@
       <path value="$PROJECT_DIR$/vendor/wpscholar/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/johnpbloch/wordpress" />
       <path value="$PROJECT_DIR$/vendor/johnpbloch/wordpress-core-installer" />
-      <path value="$PROJECT_DIR$/vendor/mjohnson/transit" />
     </include_path>
   </component>
   <component name="ProjectId" id="1faxu6waespkwFrOYX5dPqIVcs8" />
@@ -51,7 +48,7 @@
       <updated>1596470223184</updated>
       <workItem from="1596470226371" duration="1606000" />
       <workItem from="1596471988753" duration="503000" />
-      <workItem from="1596472545730" duration="725000" />
+      <workItem from="1596472545730" duration="2120000" />
     </task>
     <servers />
   </component>

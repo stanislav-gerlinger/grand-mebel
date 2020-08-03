@@ -27,6 +27,7 @@
 # WordPress: Themes
 /content/themes/*
 !/content/themes/index.php
+!/content/themes/grand-mebel
 
 # WordPress: Uploads
 /content/uploads/*
