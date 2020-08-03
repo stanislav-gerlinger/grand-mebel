@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
       <updated>1596470223184</updated>
       <workItem from="1596470226371" duration="1606000" />
       <workItem from="1596471988753" duration="503000" />
-      <workItem from="1596472545730" duration="2120000" />
+      <workItem from="1596472545730" duration="8792000" />
     </task>
     <servers />
   </component>
