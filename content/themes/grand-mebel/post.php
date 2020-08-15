@@ -1,11 +1,11 @@
 <?php
 /**
- * Шаблон отдельной записи (single.php)
+ * Запись с кастомным шаблоном (post.php)
  * @package WordPress
  * @subpackage your-grand-mebel-template-3
+ * Template Name: Запись с кастомным шаблоном
  */
 get_header(); ?>
-single.php
 <section>
 	<div class="container">
 		<div class="row">

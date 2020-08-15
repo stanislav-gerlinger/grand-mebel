@@ -3,7 +3,7 @@
  * Страница с кастомным шаблоном (page-custom.php)
  * @package WordPress
  * @subpackage your-grand-mebel-template-3
- * Template Name: Страница с кастомным шаблоном
+ * Template Name: Страница с кастомным шаблоном 1
  */
 get_header(); ?>
 <section>

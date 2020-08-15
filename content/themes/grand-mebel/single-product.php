@@ -1,11 +1,11 @@
 <?php
 /**
- * Шаблон отдельной записи (single.php)
+ * Шаблон отдельной записи (single-product.php)
  * @package WordPress
  * @subpackage your-grand-mebel-template-3
  */
 get_header(); ?>
-single.php
+single-product.php
 <section>
 	<div class="container">
 		<div class="row">
@@ -19,7 +19,7 @@ single.php
 							<p>Категории: <?php the_category(',') ?></p>
 							<?php the_tags('<p>Тэги: ', ',', '</p>'); ?>
 						</div>
-						<?php the_content(); ?>
+                        <?php the_content(); ?>
 					</article>
 				<?php endwhile; ?>
 				<?php previous_post_link('%link', '<- Предыдущий пост: %title', TRUE); ?> 

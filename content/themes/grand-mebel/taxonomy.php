@@ -5,7 +5,7 @@
  * @subpackage your-grand-mebel-template-3
  */
 get_header(); ?>
-archive.php
+taxonomy.php
 <section>
 	<div class="container">
 		<div class="row">

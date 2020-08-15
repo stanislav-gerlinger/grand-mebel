@@ -4,7 +4,8 @@
  * @package WordPress
  * @subpackage your-grand-mebel-template-3
  */
-get_header(); ?> 
+get_header(); ?>
+category.php
 <section>
 	<div class="container">
 		<div class="row">

@@ -1,11 +1,11 @@
 <?php
 /**
- * Страница архивов записей (archive.php)
+ * Страница архивов записей (taxonomy-product_category.php)
  * @package WordPress
  * @subpackage your-grand-mebel-template-3
  */
 get_header(); ?>
-archive.php
+taxonomy-product_category.php
 <section>
 	<div class="container">
 		<div class="row">

@@ -5,6 +5,10 @@
  * @subpackage your-grand-mebel-template-3
  */
 
+require_once (get_template_directory() . DIRECTORY_SEPARATOR . 'functions' . DIRECTORY_SEPARATOR . 'register_product_category_taxonomy.php');
+require_once (get_template_directory() . DIRECTORY_SEPARATOR . 'functions' . DIRECTORY_SEPARATOR . 'register_product_post_type.php');
+flush_rewrite_rules();
+
 add_theme_support('title-tag');
 
 register_nav_menus(array(
@@ -96,9 +100,9 @@ if (!function_exists('add_scripts')) {
 	function add_scripts() {
 	    if(is_admin()) return false;
 	    wp_deregister_script('jquery');
-	    wp_enqueue_script('jquery','//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js','','',true);
-	    wp_enqueue_script('bootstrap', get_template_directory_uri().'/js/bootstrap.min.js','','',true);
-	    wp_enqueue_script('main', get_template_directory_uri().'/js/main.js','','',true);
+	    //wp_enqueue_script('jquery','//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js','','',true);
+	    //wp_enqueue_script('bootstrap', get_template_directory_uri().'/js/bootstrap.min.js','','',true);
+	    //wp_enqueue_script('main', get_template_directory_uri().'/js/main.js','','',true);
 	}
 }
 
@@ -106,7 +110,7 @@ add_action('wp_print_styles', 'add_styles');
 if (!function_exists('add_styles')) {
 	function add_styles() {
 	    if(is_admin()) return false;
-	    wp_enqueue_style( 'bs', get_template_directory_uri().'/css/bootstrap.min.css' );
+	    //wp_enqueue_style( 'bs', get_template_directory_uri().'/css/bootstrap.min.css' );
 		wp_enqueue_style( 'main', get_template_directory_uri().'/style.css' );
 	}
 }

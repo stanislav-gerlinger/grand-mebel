@@ -5,7 +5,8 @@
  * @subpackage your-grand-mebel-template-3
  */
 ?>
-	<footer>
+	</main>
+    <footer>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
