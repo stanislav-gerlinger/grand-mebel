@@ -1790,7 +1790,7 @@ msgid "Rich Text Area. Press Alt-Shift-H for help."
 msgstr "Область редактирования. Нажмите Alt-Shift-H, чтобы получить больше информации."
 
 #: wp-includes/class-wp-editor.php:1362
-msgid "If you&#8217;re looking to paste rich content from Microsoft Word, try turning this option off. The editor will clean up text pasted from Word automatically."
+msgid "If you&#8217;re looking to paste rich content from Microsoft Word, try turning this option off. The editor will grand-mebel up text pasted from Word automatically."
 msgstr "Если вы хотите вставить текст с форматированием из Microsoft Word, попробуйте отключить этот режим. Редактор автоматически очистит текст, скопированный из Word."
 
 #: wp-includes/class-wp-editor.php:1361
