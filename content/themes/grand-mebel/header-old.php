@@ -58,3 +58,52 @@
 			</div>
 		</div>
 	</header>
+    <main>
+        <script>
+            let Product = function (data) {
+                // attributes
+                this.price = data.price;
+                this.title = data.title;
+                this.id = data.id;
+                this.inCart = data.inCart;
+
+                // methods
+                this.getInfo = function () {
+                    return this.price + this.title + this.id;
+                }
+                this.addToCart = function () {
+                    if(this.inCart == false) {
+                        cart.push(this);
+                        this.inCart = true;
+                    } else {
+                        alert("Вы уже добавили этот товар в корзину! А теперь иди купи button в Эльдорадо");
+                    }
+
+                }
+            };
+            let products = [];
+            for (let i = 0; i <= 12; i++) {
+                let data = {
+                    price: i * 100,
+                    title: "product " + i,
+                    id: i,
+                    inCart: false,
+                };
+                let product = new Product(data);
+                products.push(product);
+                console.log(product.getInfo());
+            }
+            let cart = [];
+
+            /*let i = 0;
+            let pb = $(".progress-bar");
+            let timerID = setInterval(() => {
+                i++;
+                if(i>=100) {
+                    clearInterval(timerID);
+                }
+                pb.css({width:i+"%"})
+                console.log(i);
+            }, 100)*/
+
+        </script>

@@ -20,33 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/archive-product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_category_taxonomy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_post_type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/header-old.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/single-product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/taxonomy-product_category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/taxonomy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/archive.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/header-old.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/loop.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/loop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/page-custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/page-custom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/themes/grand-mebel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../grand-mebel.loc" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -101,7 +77,11 @@
       <workItem from="1596472545730" duration="9715000" />
       <workItem from="1596635041251" duration="8000" />
       <workItem from="1596635060883" duration="332000" />
-      <workItem from="1597487411420" duration="16615000" />
+      <workItem from="1597487411420" duration="16906000" />
+      <workItem from="1597505827871" duration="3103000" />
+      <workItem from="1597926966663" duration="1157000" />
+      <workItem from="1597928133932" duration="2847000" />
+      <workItem from="1597932813890" duration="20000" />
     </task>
     <servers />
   </component>
@@ -125,10 +105,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596483016220" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1596635351120">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597932831630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596635351120" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597932831630" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1596483028259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -137,5 +117,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597490688939" />
+    <state x="667" y="119" width="585" height="801" key="find.popup" timestamp="1597506768350">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="119" width="585" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597506768350" />
   </component>
 </project>
