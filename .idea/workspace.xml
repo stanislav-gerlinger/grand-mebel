@@ -20,33 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/archive-product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_category_taxonomy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_post_type.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/header-old.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/single-product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/taxonomy-product_category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/taxonomy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/archive.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/header-old.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/header-old.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/loop.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/loop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/page-custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/page-custom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/single.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/themes/grand-mebel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -102,6 +79,9 @@
       <workItem from="1596635041251" duration="8000" />
       <workItem from="1596635060883" duration="332000" />
       <workItem from="1597487411420" duration="16615000" />
+      <workItem from="1597932835105" duration="5047000" />
+      <workItem from="1598008237564" duration="7737000" />
+      <workItem from="1598162061993" duration="2717000" />
     </task>
     <servers />
   </component>
