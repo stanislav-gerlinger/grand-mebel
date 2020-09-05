@@ -34,6 +34,24 @@
 <body <?php body_class(); ?>>
   <header>
     <div class="container">
-    	<a href="http://grand-mebel.loc/products/">Товары</a>    
+        <div class="nav-bar"> 
+            Меню
+            <ul>
+                <li>
+                    <a href="http://grand-mebel.loc">Главная</a>
+                </li>
+                <li>
+                    <a href="http://grand-mebel.loc/products/">Товары</a>        
+                </li>
+                <li>
+                    <a href="http://grand-mebel.loc/product-category/wood/">Дерево</a>        
+                </li>
+                <li>
+                    <a href="http://grand-mebel.loc/product-category/metal/">Металл</a>        
+                </li>
+            </ul>
+        </div>   	
+        <br>
+
     </div>
   </header>

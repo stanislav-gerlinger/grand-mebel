@@ -60,15 +60,3 @@ if (!function_exists('pagination')) {
 		 }
 	}
 }
-
-if (!function_exists('content_class_by_sidebar')) {
-	function content_class_by_sidebar() {
-		if (is_active_sidebar( 'sidebar' )) { 
-			echo 'col-sm-9';
-		} else { 
-			echo 'col-sm-12';
-		}
-	}
-}
-
-?>

@@ -6,8 +6,7 @@ function register_product_post_type()
 {
     register_post_type('product', [
         'label' => null,
-        'labels' => [
-            'name' => 'Товары', // основное название для типа записи
+        'labels' => [            'name' => 'Товары', // основное название для типа записи
             'singular_name' => 'Товар', // название для одной записи этого типа
             'add_new' => 'Добавить товар', // для добавления новой записи
             'add_new_item' => 'Добавление товара', // заголовка у вновь создаваемой записи в админ-панели.
@@ -44,7 +43,7 @@ function register_product_post_type()
         //'supports' => ['title', 'editor'], // 'title','editor','author','thumbnail','excerpt','trackbacks','custom-fields','comments','revisions','page-attributes','post-formats'
         //'map_meta_cap' => null, // Ставим true чтобы включить дефолтный обработчик специальных прав
         //'capability_type' => 'post',
-        //'menu_icon' => null,
+        'menu_icon' => 'dashicons-cart',
         //'menu_position' => null,
         //'rest_base' => null, // $post_type. C WP 4.7
         //'show_in_rest' => null, // добавить в REST API. C WP 4.7
