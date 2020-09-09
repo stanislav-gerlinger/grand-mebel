@@ -7,27 +7,46 @@
 get_header(); ?>
 single-product.php
 <section>
-	<div class="container">
-		<div class="row">
-			<div class="<?php content_class_by_sidebar(); ?>">
-				<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-						<h1><?php the_title(); ?></h1>
-						<div class="meta">
-							<p>Опубликовано: <?php the_time(get_option('date_format')." в ".get_option('time_format')); ?></p>
-							<p>Автор:  <?php the_author_posts_link(); ?></p>
-							<p>Категории: <?php the_category(',') ?></p>
-							<?php the_tags('<p>Тэги: ', ',', '</p>'); ?>
-						</div>
-                        <?php the_content(); ?>
-					</article>
-				<?php endwhile; ?>
-				<?php previous_post_link('%link', '<- Предыдущий пост: %title', TRUE); ?> 
-				<?php next_post_link('%link', 'Следующий пост: %title ->', TRUE); ?> 
-				<?php if (comments_open() || get_comments_number()) comments_template('', true); ?>
-			</div>
-			<?php get_sidebar(); ?>
-		</div>
-	</div>
-</section>
+    <div class="container">
+  		<div class="row">
+  			<div class="col-12">
+  				<h3><?php the_title(); ?></h3>
+  			</div>
+  		</div>
+    	<div class="row">
+        	<div class="col-sm-12 col-md-12 col-lg-4">
+        		<img src="http://germes-plit.ru/upload/000/u2/017/6e5dc621.jpg" alt="" width="100%">
+        	</div>
+        	<div class="col-sm-12 col-md-12 col-lg-8">
+        		<div class="description">
+        			<div class="row">   				
+    					<div class="col-sm-12">
+        						Производитель..................................................................................................................................................Барыш мебель
+        				</div>
+        			</div>
+    				<div class="row">
+        				<div class="col-sm-6"><p class="item-size">Размеры</p></div>
+	        				<div class="col-sm-6">
+	        					<div class="row">
+	        						<div class="col-sm-12">
+	        							<p class="item-size-value">Zalupa</p>
+	        						</div>	        		
+	        					</div>
+	        					<div class="row">
+	        						<div class="col-sm-12">
+	        							<p class="item-size-value">Zalupa</p>	
+	        						</div>	        		
+	        					</div>
+	        					<div class="row">
+	        						<div class="col-sm-12">
+	        							<p class="item-size-value">Zalupa</p>	
+	        						</div>	        		
+	        					</div>
+	        				</div>
+        				</div>
+	        		</div>
+	        	</div>
+	        </div>
+        </div>
+    </div>
 <?php get_footer(); ?>
