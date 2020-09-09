@@ -6,6 +6,7 @@
  */
 get_header(); ?>
 archive-product.php
+<?php echo $page->title ?>;
 <section>
 	<div class="container">
 		<div class="row">
@@ -17,7 +18,7 @@ archive-product.php
 					else : 'Archives';
 				endif; ?></h1>
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-					<?php get_template_part('loop'); ?>
+					<?php get_template_part('product'); ?>
 				<?php endwhile;
 				else: echo '<p>Нет записей.</p>'; endif; ?>	 
 				<?php pagination(); ?>

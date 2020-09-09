@@ -16,10 +16,5 @@ loop.php
 				</a>
 			</div>
 		<?php } ?>
-		<div class="<?php if ( has_post_thumbnail() ) { ?>col-sm-9<?php } else { ?>col-sm-12<?php }  ?>">
-			<article>
-				<?php the_content(''); ?>
-			</article>
-		</div>
 	</div>
 </article>
