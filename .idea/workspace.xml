@@ -21,11 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/archive-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/archive-product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/header-old.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_post_type.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_post_type.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/taxonomy-product_category.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/taxonomy-product_category.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -99,6 +99,9 @@
       <workItem from="1599300017347" duration="4049000" />
       <workItem from="1599304449565" duration="4584000" />
       <workItem from="1599311444936" duration="313000" />
+      <workItem from="1599660965661" duration="4147000" />
+      <workItem from="1599747457732" duration="5610000" />
+      <workItem from="1599758844407" duration="3176000" />
     </task>
     <servers />
   </component>
@@ -134,6 +137,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597490688939" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1599761852771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599761852771" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1599300925954">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
