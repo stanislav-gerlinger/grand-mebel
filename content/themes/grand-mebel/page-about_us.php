@@ -7,6 +7,7 @@
  */
 get_header(); ?>
     <div class="content">
+        <p><b>Мы компания Гранд мебель, иы продаем дерево, железо, двп, дсп и все что вы захотите!</b></p>
         <form>
             <fieldset>
                 <legend>Напишите нам</legend>
@@ -32,11 +33,4 @@ get_header(); ?>
             <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3a71753da21b675bd82b35ef05787eac56a54969a78ff2fe92388fd119eadfe7&amp;width=676&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
         </fieldset>
     </div>
-
-    <hr>
-
-    <div class="footer">
-        &copy;Все права защищены
-    </div>
-
-</body>
+<?php get_footer(); ?>
