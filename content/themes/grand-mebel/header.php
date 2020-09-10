@@ -49,6 +49,9 @@
                 <li>
                     <a href="http://grand-mebel.loc/product-category/metal/">Металл</a>        
                 </li>
+                <li>
+                    <a href="http://grand-mebel.loc/about-us">О нас</a>
+                </li>
             </ul>
         </div>   	
         <br>
