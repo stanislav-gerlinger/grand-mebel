@@ -26,7 +26,6 @@ taxonomy-product_category.php
 					<?php pagination(); ?>
 				</div>
 			</div>
-			<?php get_sidebar(); ?>
 		</div>
 	</div>
 </section>
