@@ -12,6 +12,12 @@ Author URI: http://dontforget.pro
     height: 450px;
 }
 
+textarea {
+	overflow: auto;
+	resize: none;
+	width: 61%;
+}
+
 .type-product {
 	border: 1px solid black;
 }
