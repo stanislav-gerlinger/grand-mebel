@@ -12,9 +12,6 @@ Author URI: http://dontforget.pro
 .carousel-item {
     height: 450px;
 }
-.nav-bar {
-	background-color: #dbd7d2;
-}
 
 /*page-about_us.php*/
 textarea {
@@ -31,11 +28,6 @@ textarea {
 	font-size: 24px;
 }
 
-/*taxonomy-product_category.php*/
-.type-product {
-	border: 1px solid black;
-}
-
 /*single-product.php*/
 p.item-size-value {
 	color:red;
@@ -43,4 +35,19 @@ p.item-size-value {
 }
 .item-size {
 	padding-top: 10%;
+}
+.single-product_image > img{
+	width: 100%;
+}
+
+/*taxonomy-product_category.php*/
+.type-product {
+	border:6px solid #dbd7d2;
+}
+
+/*loop.php*/
+.wp-post-image {
+	width: 80%;
+	height: auto;
+	padding-left: 19%;
 }
