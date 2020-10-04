@@ -9,7 +9,7 @@ taxonomy-product_category.php
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-9">
+			<div class="col-sm-12">
 				<div class="row">
 					<h1><?php // заголовок архивов
 						if (is_day()) : printf('Daily Archives: %s', get_the_date());
