@@ -10,7 +10,7 @@
 
 # WordPress
 /wp
-/salt.php
+#/salt.php
 
 # WordPress: Config File
 /wp-config-*.php
@@ -37,6 +37,6 @@
 wp-cli.local.yml
 
 # dotEnv Configuration
-.env
+#.env
 
 __*

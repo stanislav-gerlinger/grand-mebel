@@ -20,26 +20,29 @@ single-product.php
         	<div class="col-sm-12 col-md-12 col-lg-8">
         		<div class="description">
         			<div class="row">   				
-    					<div class="col-sm-12">
-        						Производитель..................................................................................................................................................Барыш мебель
+    					<div class="col-sm-6">
+        						Производитель
         				</div>
+                        <div class="col-sm-6">
+                            Барыш мебель
+                        </div>
         			</div>
     				<div class="row">
         				<div class="col-sm-6"><p class="item-size">Размеры</p></div>
 	        				<div class="col-sm-6">
 	        					<div class="row">
 	        						<div class="col-sm-12">
-	        							<p class="item-size-value">Zalupa</p>
+	        							<p class="item-size-value">0.02</p>
 	        						</div>	        		
 	        					</div>
 	        					<div class="row">
 	        						<div class="col-sm-12">
-	        							<p class="item-size-value">Zalupa</p>	
+	        							<p class="item-size-value">0.02</p>
 	        						</div>	        		
 	        					</div>
 	        					<div class="row">
 	        						<div class="col-sm-12">
-	        							<p class="item-size-value">Zalupa</p>	
+	        							<p class="item-size-value">0.02</p>
 	        						</div>	        		
 	        					</div>
 	        				</div>

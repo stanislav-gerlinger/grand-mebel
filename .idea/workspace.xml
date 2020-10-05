@@ -24,10 +24,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="about-us fix 2">
+    <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="image&amp;description">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_post_type.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_post_type.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/loop.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/loop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/archive-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/archive-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_category_taxonomy.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_category_taxonomy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/single-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/single-product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" afterDir="false" />
     </list>
@@ -118,7 +119,9 @@
       <workItem from="1599758844407" duration="3176000" />
       <workItem from="1601670397618" duration="5202000" />
       <workItem from="1601712559338" duration="9290000" />
-      <workItem from="1601811149365" duration="5256000" />
+      <workItem from="1601811149365" duration="7471000" />
+      <workItem from="1601843012479" duration="1910000" />
+      <workItem from="1601899924947" duration="662000" />
     </task>
     <task id="LOCAL-00001" summary="about-us fix">
       <created>1601674911827</created>
@@ -141,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601721575714</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="image&amp;description">
+      <created>1601817088688</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601817088688</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +182,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="about-us fix" />
     <MESSAGE value="about-us fix 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="about-us fix 2" />
+    <MESSAGE value="image&amp;description" />
+    <option name="LAST_COMMIT_MESSAGE" value="image&amp;description" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="343" key="#CLI_Interpreters" timestamp="1601713576128">
@@ -223,10 +234,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597490688939" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601721588360">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601817098195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601721588360" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601817098195" />
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601713357987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

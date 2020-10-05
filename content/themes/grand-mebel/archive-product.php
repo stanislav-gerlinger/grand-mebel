@@ -17,8 +17,10 @@ archive-product.php
 
 		<div class="row">
                    <?php // получаем все термины из таксономии product_category
-                    $args = array( 'hide_empty=0' );
-                    $terms = get_terms('product_category', $args);
+                    $terms = get_terms( [
+                        'taxonomy' => 'product_category',
+                        'hide_empty' => false
+                    ] );
 
                     // собираем их и выводим
                     if ( !empty( $terms ) && !is_wp_error( $terms ) ) {

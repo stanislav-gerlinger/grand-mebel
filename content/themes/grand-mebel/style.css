@@ -30,11 +30,13 @@ textarea {
 
 /*single-product.php*/
 p.item-size-value {
-	color:red;
 	text-align: right;
 }
 .item-size {
-	padding-top: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 }
 .single-product_image > img{
 	width: 100%;
