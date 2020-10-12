@@ -11,10 +11,10 @@ flush_rewrite_rules();
 
 add_theme_support('title-tag');
 
-register_nav_menus(array(
-	'top' => 'Верхнее',
-	'bottom' => 'Внизу'
-));
+require_once('WP_Bootstrap_Navwalker.php');
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'grand-mebel')
+) );
 
 add_theme_support('post-thumbnails');
 set_post_thumbnail_size(250, 150);

@@ -25,10 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/page-about_us.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_post_type.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_post_type.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/WP_Bootstrap_Navwalker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/page-custom.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/page-custom.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +51,12 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
+      <path value="$PROJECT_DIR$/../../modules/php/PHP_7.2" />
+      <path value="$PROJECT_DIR$/vendor/johnpbloch/wordpress" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/johnpbloch/wordpress-core-installer" />
       <path value="$PROJECT_DIR$/vendor/m1/env" />
       <path value="$PROJECT_DIR$/vendor/wpscholar/phpdotenv" />
-      <path value="$PROJECT_DIR$/vendor/johnpbloch/wordpress" />
-      <path value="$PROJECT_DIR$/vendor/johnpbloch/wordpress-core-installer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1faxu6waespkwFrOYX5dPqIVcs8" />
@@ -114,11 +115,12 @@
       <workItem from="1599660965661" duration="4147000" />
       <workItem from="1599747457732" duration="5610000" />
       <workItem from="1599758844407" duration="3176000" />
+      <workItem from="1602502761400" duration="709000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -137,6 +139,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596483016220" />
+    <state x="286" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602503079207">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="286" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602503079207" />
     <state x="1966" y="42" width="1819" height="943" key="DiffContextDialog" timestamp="1600586294419">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
