@@ -25,9 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/content/themes/grand-mebel/WP_Bootstrap_Navwalker.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +113,7 @@
       <workItem from="1599660965661" duration="4147000" />
       <workItem from="1599747457732" duration="5610000" />
       <workItem from="1599758844407" duration="3176000" />
-      <workItem from="1602502761400" duration="709000" />
+      <workItem from="1602502761400" duration="2873000" />
     </task>
     <servers />
   </component>
