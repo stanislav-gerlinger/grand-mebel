@@ -8,23 +8,46 @@ Author: saxa:p
 Author URI: http://dontforget.pro
 */
 
+/*index.php*/
 .carousel-item {
     height: 450px;
 }
 
-.type-product {
-	border: 1px solid black;
+/*page-about_us.php*/
+textarea {
+	overflow: auto;
+	resize: none;
+	width: 73%;
+	height: 210px;
+}
+.page-about_us__form {
+	padding-left: 17%;
+}
+.page-about_us__text{
+	font-family: Century Gothic;
+	font-size: 24px;
 }
 
-.nav-bar {
-	background-color: #dbd7d2;
-}
-
-.item-size {
-	padding-top: 10%;
-}
-
+/*single-product.php*/
 p.item-size-value {
 	color:red;
 	text-align: right;
+}
+.item-size {
+	padding-top: 10%;
+}
+.single-product_image > img{
+	width: 100%;
+}
+
+/*taxonomy-product_category.php*/
+.type-product {
+	border:6px solid #dbd7d2;
+}
+
+/*loop.php*/
+.wp-post-image {
+	width: 80%;
+	height: auto;
+	padding-left: 19%;
 }
