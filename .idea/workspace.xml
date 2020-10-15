@@ -24,12 +24,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="about-us fix 2">
+    <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_post_type.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_post_type.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/loop.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/loop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/single-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/single-product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/archive-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/archive-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,9 +114,7 @@
       <workItem from="1599660965661" duration="4147000" />
       <workItem from="1599747457732" duration="5610000" />
       <workItem from="1599758844407" duration="3176000" />
-      <workItem from="1601670397618" duration="5202000" />
-      <workItem from="1601712559338" duration="9290000" />
-      <workItem from="1601811149365" duration="5256000" />
+      <workItem from="1602502761400" duration="4353000" />
     </task>
     <task id="LOCAL-00001" summary="about-us fix">
       <created>1601674911827</created>
@@ -186,11 +182,11 @@
     <state x="798" y="444" key="#WordPress" timestamp="1601673747386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="798" y="444" key="#WordPress/0.0.1920.1040@0.0.1920.1040" timestamp="1601673747386" />
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601713750122">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596483016220" />
+    <state x="286" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602503079207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601713750122" />
+    <state x="286" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602503079207" />
     <state x="1966" y="42" width="1819" height="943" key="DiffContextDialog" timestamp="1600586294419">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

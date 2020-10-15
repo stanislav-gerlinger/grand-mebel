@@ -5,7 +5,7 @@
  * @subpackage your-grand-mebel-template-3
  */
 get_header(); ?>
-    <section class="content">
+    <section class="slider">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -44,32 +44,38 @@ get_header(); ?>
                 <span class="sr-only">Next</span>
             </a>
         </div>
+    </section>
+    <section class="categories">
         <div class="container">
             <div class="row">
-                <div class="col-sm-4">
-                    <div class="product-category">
-                        <a href="https://shaparbrand.ru/catalog/kardigany-zhenskie-vyazanye-ruchnoj-raboty/">
-                            <h4 class="loop-title"><span>Категория 1</span></h4>
-                            <img src="https://i.pinimg.com/474x/8d/60/0d/8d600dbf11f475b7d59156b7470a85aa.jpg" title="Кардиганы" alt>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="loop loop-product-category loop-grid">
-                        <a href="https://shaparbrand.ru/catalog/svitery-zhenskie-vyazanye-ruchnoj-raboty-dzhempera-pulovery/">
-                            <h4 class="loop-title"><span>Категория 2</span></h4>
-                            <img src="https://i.pinimg.com/474x/4b/02/46/4b0246b399433877779f30eaafa0900b.jpg" title="Свитера" alt>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="loop loop-product-category loop-grid">
-                        <a href="https://shaparbrand.ru/catalog/svitery-zhenskie-vyazanye-ruchnoj-raboty-dzhempera-pulovery/">
-                            <h4 class="loop-title"><span>Категория 3</span></h4>
-                            <img src="https://i.pinimg.com/474x/e5/4a/51/e54a51ef8d19b1bd679b9e3fedf68c9c.jpg" title="Свитера" alt>
-                        </a>
-                    </div>
-                </div>
+                <?php // получаем все термины из таксономии product_category
+                $args = array( 'hide_empty=0' );
+                $terms = get_terms('product_category', $args);
+
+                // собираем их и выводим
+                if ( !empty( $terms ) && !is_wp_error( $terms ) ) {
+                    $count = count($terms);
+                    $i=0;
+                    foreach ($terms as $term) {
+                        ?>
+                        <div class="col-sm-4">
+                            <div class="categories-cart">
+                                <?php
+                                $i++;
+                                echo '<a href="' . get_term_link( $term ) . '">
+                                            <img src="https://prestizh73.ru/image/cache/catalog/2019/09/162-2-400x400-370x370.jpg" alt="' . sprintf(__('View all post filed under %s', 'my_localization_domain'), $term->name) . '" title="' . sprintf(__('View all post filed under %s', 'my_localization_domain'), $term->name) . '">
+                                            <p>
+                                                <span>' . $term->name . '</span>
+                                            </p>
+                                          </a>';
+                                ?>
+                            </div>
+                        </div>
+                        <?php
+                    }
+
+                } ?>
+                <?php pagination(); ?>
             </div>
         </div>
     </section>
