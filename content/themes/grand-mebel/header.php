@@ -32,65 +32,59 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-    <header>
+<header>
+    <section class="header-top">
         <div class="container">
             <div class="row">
-                <div class="col-sm-1">
-                    <a href="http://grand-mebel.loc/">
-                        <img title="Логотип"
-                             src="https://image.freepik.com/free-vector/creative-furniture-logo-template_23-2148466513.jpg"
-                             height="100px">
-                    </a>
-                </div>
                 <div class="col-sm-5">
-                    <div><h2>ГРАНД</h2></div>
-                    <div><h5>Материалы для производства мебели</h5></div>
+                    <div class="header-menu">
+                        <nav class="navbar navbar-expand-md navbar-light">
+                            <?php
+                                wp_nav_menu( array(
+                                        'theme_location' => 'primary',
+                                        'depth' => 0,
+                                        'container' => 'div',
+                                        'container_class' => 'collapse navbar-collapse',
+                                        'container_id' => 'bs-example-navbar-collapse-1',
+                                        'menu_class' => 'navbar-nav mr-auto',
+                                        'fallback_cb' => 'WP_Bootstrap_Navwalker::fallback',
+                                        'walker' => new WP_Bootstrap_Navwalker()
+                                ));
+                            ?>
+                        </nav>
+                    </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-2">
+                    <div class="logo">
+                        <a href="http://grandmebel.ru/">
+                            <img title="Логотип"
+                                 src="https://sun9-42.userapi.com/impg/IFBiKbeJ2FcxDgFvfc45Qpgn9sHxgo5z7kyw8w/ljS9pkDuZDs.jpg?size=177x91&quality=90&proxy=1&sign=4793b0def1a46b81bda1e8f4e6fd7a18"
+                            >
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="media">
+                        <a href="https://vk.com/">
+                            <img src="https://sun9-65.userapi.com/impg/Qz2kDqISKbjf7i-7_4Ku30gs5KA3Ux_ipesLsg/uvBj8vDc1Uw.jpg?size=33x35&quality=90&proxy=1&sign=2456fa24785d3bd92e89938634b6c476">
+                        </a>
+                        <a href="https://instagram.com/">
+                            <img src="https://sun9-72.userapi.com/impg/Wpr9Zyon-HVDgLRHw5eX90BDm_xe8qaAAsMYyw/tMAlnQyB6S0.jpg?size=35x35&quality=90&proxy=1&sign=9c10fafb505903a557333d6397b542dd">
+                        </a>
+                        <a href="https://facebook.com/">
+                            <img src="https://sun9-39.userapi.com/impg/qS0LsBd8CIzbI1YHdPvGcdrGyI_XescslGMl7Q/Zr7gP3bghUI.jpg?size=36x34&quality=90&proxy=1&sign=737158140627c9dd4af30b6baf0e9934">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-3">
                     <div class="feedback">
-                        <div style="text-align: center;">
-                            <div>
-                                <h5>
-                                    <span>т. 95-11-32 / 95-11-36</span>
-                                </h5>
-                            </div>
-                            <div>
-                                <h3>
-                                    ЛДСП, МДФ, ФАНЕРА
-                                </h3>
-                            </div>
-                        </div>
+                        <h5>
+                            <span>+7 (8422) 33-33-33</span>
+                        </h5>
                     </div>
                 </div>
             </div>
-            <nav class="header__navbar navbar-expand-lg navbar-light bg-light">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://grand-mebel.loc/">Главная<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="http://grand-mebel.loc/products/" id="navbarDropdown"
-                               role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Товары
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="http://grand-mebel.loc/product-category/gofrokarton/">Гофрокартон</a>
-                                <a class="dropdown-item" href="http://grand-mebel.loc/product-category/dvp/">ДВП
-                                    (1,7*2,75)</a>
-                                <a class="dropdown-item" href="http://grand-mebel.loc/product-category/dsp-16mm/">ДСП 16мм
-                                    Кроностар</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="http://grand-mebel.loc/about-us">О нас</a>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </nav>
         </div>
-    </header>
+    </section>
+    <hr>
+</header>

@@ -13,7 +13,6 @@ Author URI: http://dontforget.pro
     height: 450px;
 }
 
-
 /*page-about_us.php*/
 textarea {
 	overflow: auto;
@@ -31,13 +30,11 @@ textarea {
 
 /*single-product.php*/
 p.item-size-value {
+	color:red;
 	text-align: right;
 }
 .item-size {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
+	padding-top: 10%;
 }
 .single-product_image > img{
 	width: 100%;
