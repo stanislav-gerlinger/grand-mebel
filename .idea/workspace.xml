@@ -25,10 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="05.10">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_category_taxonomy.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_category_taxonomy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +57,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1faxu6waespkwFrOYX5dPqIVcs8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
