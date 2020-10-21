@@ -26,7 +26,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/archive-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/archive-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +116,11 @@
       <workItem from="1599660965661" duration="4147000" />
       <workItem from="1599747457732" duration="5610000" />
       <workItem from="1599758844407" duration="3176000" />
-      <workItem from="1602502761400" duration="4353000" />
+      <workItem from="1602502761400" duration="5544000" />
+      <workItem from="1602663625391" duration="302000" />
+      <workItem from="1602692198112" duration="34000" />
+      <workItem from="1603043638497" duration="2762000" />
+      <workItem from="1603280095439" duration="1577000" />
     </task>
     <servers />
   </component>
