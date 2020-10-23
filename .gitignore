@@ -38,3 +38,5 @@ wp-cli.local.yml
 
 # dotEnv Configuration
 .env
+
+__*
