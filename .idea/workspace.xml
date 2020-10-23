@@ -24,7 +24,22 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="" />
+    <list default="true" id="ebb1141e-a4e8-4c3c-8776-e706173b0436" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/assets/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_post_type.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/functions/register_product_post_type.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/loop.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/loop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/page-about_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/page-about_us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/single-product.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/single-product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/themes/grand-mebel/taxonomy-product_category.php" beforeDir="false" afterPath="$PROJECT_DIR$/content/themes/grand-mebel/taxonomy-product_category.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +130,10 @@
       <workItem from="1602692198112" duration="34000" />
       <workItem from="1603043638497" duration="2762000" />
       <workItem from="1603280095439" duration="1848000" />
-      <workItem from="1603451522089" duration="448000" />
+      <workItem from="1603451522089" duration="1097000" />
+      <workItem from="1603453077868" duration="136000" />
+      <workItem from="1603453224154" duration="409000" />
+      <workItem from="1603453646593" duration="260000" />
     </task>
     <servers />
   </component>

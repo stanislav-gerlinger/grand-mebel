@@ -14,8 +14,8 @@ single-product.php
   			</div>
   		</div>
     	<div class="row">
-        	<div class="col-sm-12 col-md-12 col-lg-4">
-        		<img src="http://germes-plit.ru/upload/000/u2/017/6e5dc621.jpg" alt="" width="100%">
+        	<div class="col-sm-12 col-md-12 col-lg-4 single-product_image">
+        		<img src="<?= get_the_post_thumbnail_url(); ?>;" alt="" width="">
         	</div>
         	<div class="col-sm-12 col-md-12 col-lg-8">
         		<div class="description">
@@ -45,8 +45,17 @@ single-product.php
 	        				</div>
         				</div>
 	        		</div>
+                    <div class="row">
+
+                        <div class="col-sm-12">
+	                        <?php
+                                if (have_posts()) the_post();
+                                the_content();
+                            ?>
+                        </div>
+                    </div>
 	        	</div>
 	        </div>
         </div>
-    </div>
+</section>
 <?php get_footer(); ?>
