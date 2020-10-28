@@ -13,6 +13,10 @@ Author URI: http://dontforget.pro
     height: 450px;
 }
 
+section.categories img {
+	width: 100%;
+}
+
 /*page-about_us.php*/
 textarea {
 	overflow: auto;

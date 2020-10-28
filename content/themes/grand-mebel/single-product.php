@@ -29,17 +29,17 @@ single-product.php
 	        				<div class="col-sm-6">
 	        					<div class="row">
 	        						<div class="col-sm-12">
-	        							<p class="item-size-value">Zalupa</p>
+	        							<p class="item-size-value">0.2</p>
 	        						</div>	        		
 	        					</div>
 	        					<div class="row">
 	        						<div class="col-sm-12">
-	        							<p class="item-size-value">Zalupa</p>	
+	        							<p class="item-size-value">0.2</p>	
 	        						</div>	        		
 	        					</div>
 	        					<div class="row">
 	        						<div class="col-sm-12">
-	        							<p class="item-size-value">Zalupa</p>	
+	        							<p class="item-size-value">0.2</p>	
 	        						</div>	        		
 	        					</div>
 	        				</div>

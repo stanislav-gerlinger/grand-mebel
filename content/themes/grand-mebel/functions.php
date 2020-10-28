@@ -13,7 +13,9 @@ add_theme_support('title-tag');
 
 require_once('WP_Bootstrap_Navwalker.php');
 register_nav_menus( array(
-    'primary' => __( 'Primary Menu', 'grand-mebel')
+    'header_main' => __('Header Main Menu', 'grand-mebel'),
+    'footer_main' => __('Footer Main Menu', 'grand-mebel'),
+    'footer_products' => __('Footer Products Menu', 'grand-mebel')
 ) );
 
 add_theme_support('post-thumbnails');

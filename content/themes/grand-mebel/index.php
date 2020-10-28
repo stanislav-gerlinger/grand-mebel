@@ -5,7 +5,7 @@
  * @subpackage your-grand-mebel-template-3
  */
 get_header(); ?>
-    <section class="slider">
+    <section class="slider container">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -14,7 +14,7 @@ get_header(); ?>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://cdn.wallscloud.net/converted/2254642368-Priroda-EGDg-1920x1080-MM-100.jpg" class="d-block w-100" alt="...">
+                    <img src="https://sun9-18.userapi.com/impf/m5t13UIQbAgmYGCzIFkgL2tZw2nqbWZ3ZAOKrg/49XRZqqST28.jpg?size=1280x533&quality=90&sign=71307c43490803f12b5270389c9041b8" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Природа 1</h5>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
