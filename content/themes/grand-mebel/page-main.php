@@ -66,14 +66,15 @@ get_header(); ?>
                                 <div class="categories-item__image">
                                     <img src="https://prestizh73.ru/image/cache/catalog/2019/09/162-2-400x400-370x370.jpg" alt="' . sprintf(__('%s', 'my_localization_domain'), $term->name) . '" title="' . sprintf(__('%s', 'my_localization_domain'), $term->name) . '">
                                 </div>
-                            </div>
-                            <div class="categories-item__title">
-                                <?php
-                                $i++;
-                                echo '<a href="' . get_term_link( $term ) . '" style="font-family: Gotham Pro; font-style: normal; font-weight: bold; font-size: 18px; line-height: 17px; color: #212121;">
-                                           <span>' . $term->name . '</span>
-                                      </a>';
-                                ?>
+                            <!--font-family: Gotham Pro;-->
+                                <div class="categories-item__title">
+                                    <?php
+                                    $i++;
+                                    echo '<a href="' . get_term_link( $term ) . '"style=" font-style: normal; font-weight: bold; font-size: 18px; line-height: 17px; color: #212121;">
+                                               <span>' . $term->name . '</span>
+                                          </a>';
+                                    ?>
+                                </div>
                             </div>
                         </div>
                         <?php
