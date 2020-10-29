@@ -27,6 +27,7 @@
 # WordPress: Themes
 /content/themes/*
 !/content/themes/index.php
+!/content/themes/grand-mebel
 
 # WordPress: Uploads
 /content/uploads/*
@@ -37,3 +38,5 @@ wp-cli.local.yml
 
 # dotEnv Configuration
 .env
+
+__*

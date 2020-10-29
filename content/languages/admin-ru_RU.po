@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.4.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-06 17:30:39+0000\n"
+"PO-Revision-Date: 2020-07-29 21:01:20+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -8783,7 +8783,7 @@ msgstr "Ваши темы актуальны"
 
 #: wp-admin/includes/class-wp-site-health.php:454
 msgid "Manage inactive plugins"
-msgstr "Управление неактивными плагинами"
+msgstr "Управление неактивными плагиными"
 
 #: wp-admin/includes/class-wp-site-health.php:448
 msgid "Inactive plugins are tempting targets for attackers. If you&#8217;re not going to use a plugin, we recommend you remove it."
