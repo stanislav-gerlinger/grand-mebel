@@ -1,0 +1,85 @@
+/*   
+Theme Name: your-grand-mebel-template-3 (uncommented)
+Theme URI: https://github.com/saxap/clean-wp-template
+Version: 3.0
+Tags: grand-mebel, development, html5, bootstrap
+Description: Clean wordpress theme with minimal bootstrap3 markup for fast development starting
+Author: saxa:p
+Author URI: http://dontforget.pro
+*/
+
+/*index.php*/
+.carousel-item {
+    height: 450px;
+}
+
+/*page-about_us.php*/
+textarea {
+	overflow: auto;
+	resize: none;
+	width: 73%;
+	height: 210px;
+}
+.page-about_us__form {
+	padding-left: 17%;
+}
+.page-about_us__text{
+	font-family: Century Gothic;
+	font-size: 24px;
+}
+
+/*single-product.php*/
+p.item-size-value {
+	color: #ff0000;
+	text-align: right;
+}
+.item-size {
+	padding-top: 10%;
+}
+.single-product_image > img{
+	width: 100%;
+}
+
+/*taxonomy-product_category.php*/
+.type-product {
+	border:6px solid #dbd7d2;
+}
+
+/*loop.php*/
+.wp-post-image {
+	width: 80%;
+	height: auto;
+	padding-left: 19%;
+}
+/*index.php*/
+.categories-item {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	/* overflow: hidden; */
+	position: relative;
+}
+.categories-item:before {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 100px;
+	left: -5px;
+	top: 15px;
+	background: #7c401d;
+	border-radius: 5px;
+	/* transform: rotate(-90deg); */
+}
+.categories-item__image {
+	/* border-radius: 10px; */
+	height: 200px;
+	overflow: hidden;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.categories-item__title {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	padding: 15px;
+}
