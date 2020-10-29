@@ -35,13 +35,13 @@
 <header>
     <section class="header-top">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-sm-5">
-                    <div class="header-menu">
+                    <div class="header-main-menu">
                         <nav class="navbar navbar-expand-md navbar-light">
                             <?php
                                 wp_nav_menu( array(
-                                        'theme_location' => 'primary',
+                                        'theme_location' => 'header_main',
                                         'depth' => 0,
                                         'container' => 'div',
                                         'container_class' => 'collapse navbar-collapse',
@@ -56,28 +56,31 @@
                 </div>
                 <div class="col-sm-2">
                     <div class="logo">
-                        <a href="http://grandmebel.ru/">
+                        <a href="http://grandmebel.loc/">
                             <img title="Логотип"
-                                 src="https://sun9-42.userapi.com/impg/IFBiKbeJ2FcxDgFvfc45Qpgn9sHxgo5z7kyw8w/ljS9pkDuZDs.jpg?size=177x91&quality=90&proxy=1&sign=4793b0def1a46b81bda1e8f4e6fd7a18"
+                                 src="https://sun9-12.userapi.com/impf/WALXT_rd_SGZVBiKZGDKuMmp45p48PXmCXVxpg/xSkvXvkpXJw.jpg?size=105x69&quality=90&proxy=1&sign=8d16c2763311dacf23fa8e03ad0685c1"
                             >
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-3">
                     <div class="media">
                         <a href="https://vk.com/">
-                            <img src="https://sun9-65.userapi.com/impg/Qz2kDqISKbjf7i-7_4Ku30gs5KA3Ux_ipesLsg/uvBj8vDc1Uw.jpg?size=33x35&quality=90&proxy=1&sign=2456fa24785d3bd92e89938634b6c476">
+                            <img src="https://sun9-15.userapi.com/impf/QvepP2_xJrZJqTfcGg1RFK0_66xGldryaJY-xA/RlO-WlUVteo.jpg?size=70x70&quality=90&proxy=1&sign=31316c3e73372553ae27f533920799af">
                         </a>
                         <a href="https://instagram.com/">
-                            <img src="https://sun9-72.userapi.com/impg/Wpr9Zyon-HVDgLRHw5eX90BDm_xe8qaAAsMYyw/tMAlnQyB6S0.jpg?size=35x35&quality=90&proxy=1&sign=9c10fafb505903a557333d6397b542dd">
+                            <img src="https://sun9-2.userapi.com/impf/oP1kyeaFpgR8MJRAee_xlWNeN7IHv-ThgJcn5A/XNYw_eegDPY.jpg?size=71x70&quality=90&proxy=1&sign=b1b8b8025aaa1735dbabf8bbd7da8765">
                         </a>
                         <a href="https://facebook.com/">
-                            <img src="https://sun9-39.userapi.com/impg/qS0LsBd8CIzbI1YHdPvGcdrGyI_XescslGMl7Q/Zr7gP3bghUI.jpg?size=36x34&quality=90&proxy=1&sign=737158140627c9dd4af30b6baf0e9934">
+                            <img src="https://sun9-15.userapi.com/impf/QvepP2_xJrZJqTfcGg1RFK0_66xGldryaJY-xA/RlO-WlUVteo.jpg?size=70x70&quality=90&proxy=1&sign=31316c3e73372553ae27f533920799af">
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2">
                     <div class="feedback">
+                        <a href="call">
+                            <img src="https://sun9-57.userapi.com/impf/VJi_j2S2C4hUtD5GQPDcB53tRjd4pHaRThgqKA/z8HJqsA7-CU.jpg?size=30x30&quality=90&proxy=1&sign=d8d9c0dcfff10b5d5972422ad52f29bf">
+                        </a>
                         <h5>
                             <span>+7 (8422) 33-33-33</span>
                         </h5>
@@ -86,5 +89,4 @@
             </div>
         </div>
     </section>
-    <hr>
 </header>

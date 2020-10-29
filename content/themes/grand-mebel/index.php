@@ -5,6 +5,7 @@
  * @subpackage your-grand-mebel-template-3
  */
 get_header(); ?>
+<main style="background: #FFFFFF;">
     <section class="slider">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -14,7 +15,7 @@ get_header(); ?>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="https://cdn.wallscloud.net/converted/2254642368-Priroda-EGDg-1920x1080-MM-100.jpg" class="d-block w-100" alt="...">
+                    <img src="https://sun9-18.userapi.com/impf/m5t13UIQbAgmYGCzIFkgL2tZw2nqbWZ3ZAOKrg/49XRZqqST28.jpg?size=1280x533&quality=90&sign=71307c43490803f12b5270389c9041b8" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Природа 1</h5>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -45,7 +46,8 @@ get_header(); ?>
             </a>
         </div>
     </section>
-    <section class="categories">
+
+    <section class="categories" style="padding-top: 60px; padding-bottom: 60px;">
         <div class="container">
             <div class="row">
                 <?php // получаем все термины из таксономии product_category
@@ -58,16 +60,18 @@ get_header(); ?>
                     $i=0;
                     foreach ($terms as $term) {
                         ?>
-                        <div class="col-sm-4">
-                            <div class="categories-cart">
+                        <div class="col-sm-2">
+                            <div class="categories-item">
+                                <div class="categories-item__image">
+                                    <img src="https://prestizh73.ru/image/cache/catalog/2019/09/162-2-400x400-370x370.jpg" alt="' . sprintf(__('%s', 'my_localization_domain'), $term->name) . '" title="' . sprintf(__('%s', 'my_localization_domain'), $term->name) . '">
+                                </div>
+                            </div>
+                            <div class="categories-item__title">
                                 <?php
                                 $i++;
-                                echo '<a href="' . get_term_link( $term ) . '">
-                                            <img src="https://prestizh73.ru/image/cache/catalog/2019/09/162-2-400x400-370x370.jpg" alt="' . sprintf(__('View all post filed under %s', 'my_localization_domain'), $term->name) . '" title="' . sprintf(__('View all post filed under %s', 'my_localization_domain'), $term->name) . '">
-                                            <p>
-                                                <span>' . $term->name . '</span>
-                                            </p>
-                                          </a>';
+                                echo '<a href="' . get_term_link( $term ) . '" style="font-family: Gotham Pro; font-style: normal; font-weight: bold; font-size: 18px; line-height: 17px; color: #212121;">
+                                           <span>' . $term->name . '</span>
+                                      </a>';
                                 ?>
                             </div>
                         </div>
@@ -79,4 +83,5 @@ get_header(); ?>
             </div>
         </div>
     </section>
+</main>
 <?php get_footer(); ?>
