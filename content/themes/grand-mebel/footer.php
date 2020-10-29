@@ -6,8 +6,7 @@
  */
 ?>
 	</main>
-    <footer>
-        <hr>
+    <footer style="background: #E5E5E5;">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-3">

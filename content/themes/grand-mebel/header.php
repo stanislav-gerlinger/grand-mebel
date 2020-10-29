@@ -35,7 +35,7 @@
 <header>
     <section class="header-top">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-sm-5">
                     <div class="header-main-menu">
                         <nav class="navbar navbar-expand-md navbar-light">
@@ -89,5 +89,4 @@
             </div>
         </div>
     </section>
-    <hr>
 </header>

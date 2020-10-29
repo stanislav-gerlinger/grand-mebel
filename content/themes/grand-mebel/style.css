@@ -30,7 +30,7 @@ textarea {
 
 /*single-product.php*/
 p.item-size-value {
-	color:red;
+	color: #ff0000;
 	text-align: right;
 }
 .item-size {
@@ -50,4 +50,36 @@ p.item-size-value {
 	width: 80%;
 	height: auto;
 	padding-left: 19%;
+}
+/*index.php*/
+.categories-item {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	/* overflow: hidden; */
+	position: relative;
+}
+.categories-item:before {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 100px;
+	left: -5px;
+	top: 15px;
+	background: #7c401d;
+	border-radius: 5px;
+	/* transform: rotate(-90deg); */
+}
+.categories-item__image {
+	/* border-radius: 10px; */
+	height: 200px;
+	overflow: hidden;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.categories-item__title {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	padding: 15px;
 }
