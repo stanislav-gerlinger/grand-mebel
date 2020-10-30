@@ -8,6 +8,17 @@ Author: saxa:p
 Author URI: http://dontforget.pro
 */
 
+/*font*/
+@font-face {
+	font-family: 'Gotham Pro Bold';
+	src: url('GothamPro-Bold.eot');
+	src: url('GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+	url('./assets/fonts/GothamPro-Bold.woff') format('woff'),
+	url('./assets/fonts/GothamPro-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /*index.php*/
 .carousel-item {
     height: 450px;
@@ -77,9 +88,11 @@ p.item-size-value {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
+
 .categories-item__title {
 	height: 70px;
 	display: flex;
 	align-items: center;
-	padding: 15px;
+	padding: 15px;	
+	font-family: 'Gotham Pro Bold';
 }
