@@ -5,8 +5,6 @@
  * @subpackage your-grand-mebel-template-3
  */ 
 ?>
-loop-category.php
-
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
         <div class="meta">
