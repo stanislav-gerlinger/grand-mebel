@@ -60,6 +60,12 @@ a.media__circle-href {
 	justify-content: space-around;
 }
 
+ul {
+	justify-content: space-around;
+	padding:0; margin:0;
+	width:100%;
+}
+
 .feedback {
 	display: flex;
 	justify-content: flex-end;
