@@ -19,6 +19,54 @@ Author URI: http://dontforget.pro
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Gotham Pro Light';
+	src: url('GothamPro-Light.eot');
+	src: url('GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+	url('./assets/fonts/GothamPro-Light.woff') format('woff'),
+	url('./assets/fonts/GothamPro-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media (min-width: 1200px) {
+	.container {
+    	max-width: 1364px;
+	}
+}
+
+/*header.php*/
+.header-main-menu {
+	font-family: 'Gotham Pro Light';
+}
+
+a.media__circle-href {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 35px;
+	height: 35px;
+	border-radius: 50px;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+}
+
+.media {
+	display: flex;
+	justify-content: space-around;
+}
+
+.feedback {
+	display: flex;
+	justify-content: flex-end;
+	font-family: 'Gotham Pro Bold';
+	font-size: 20px;	
+}
+
 /*index.php*/
 .carousel-item {
     height: 450px;
