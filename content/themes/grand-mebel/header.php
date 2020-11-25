@@ -66,13 +66,13 @@
                 <div class="col-sm-2">
                     <div class="media">
                         <a href="https://vk.com/" class="media__circle-href">
-                            <img src="content/themes/grand-mebel/assets/images/vk_icon.svg">
+                            <img src="<?= get_template_directory_uri() ?>/assets/images/vk_icon.svg">
                         </a>
                         <a href="https://instagram.com/" class="media__circle-href">
-                            <img src="content/themes/grand-mebel/assets/images/vk_icon.svg">
+                            <img src="<?= get_template_directory_uri() ?>/assets/images/vk_icon.svg">
                         </a>
                         <a href="https://facebook.com/" class="media__circle-href">
-                            <img src="content/themes/grand-mebel/assets/images/facebook_icon.svg">
+                            <img src="<?= get_template_directory_uri() ?>/assets/images/facebook_icon.svg">
                         </a>
                     </div>
                 </div>
