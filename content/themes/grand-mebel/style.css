@@ -31,7 +31,7 @@ Author URI: http://dontforget.pro
 
 @media (min-width: 1200px) {
 	.container {
-    	max-width: 1380px;
+    	max-width: 1400px;
 	}
 }
 
@@ -54,11 +54,11 @@ ul {
 .navbar-expand-md .navbar-nav .nav-link {
 	padding: 0;
 	margin-right: 20px;
+	padding: 15px 15px;
 }
 
-.navbar-expand-md .navbar-nav .nav-link: last-child {
-	padding: 0;
-	margin: 0;
+.navbar-expand-md .navbar-nav .nav-link : last-child {
+	margin: 0px;
 }
 
 .logo {
