@@ -78,10 +78,10 @@
                 </div>
                 <div class="col-sm-3">
                     <div class="feedback">
-                        <a href="call">
+                        <a href="call-icon">
                             <img src="https://sun9-57.userapi.com/impf/VJi_j2S2C4hUtD5GQPDcB53tRjd4pHaRThgqKA/z8HJqsA7-CU.jpg?size=30x30&quality=90&proxy=1&sign=d8d9c0dcfff10b5d5972422ad52f29bf">
                         </a>
-                        <span>+7 (8422) 33-33-33</span>
+                        <span class="phone-number">+7 (8422) 33-33-33</span>
                     </div>
                 </div>
             </div>
