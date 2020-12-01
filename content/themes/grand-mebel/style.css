@@ -29,6 +29,36 @@ Author URI: http://dontforget.pro
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Gotham Pro Regular';
+	src: url('GothamPro.eot');
+	src: url('GothamPro.eot?#iefix') format('embedded-opentype'),
+	url('./assets/fonts/GothamPro.woff') format('woff'),
+	url('./assets/fonts/GothamPro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Medium';
+	src: url('./assets/fonts/GothamPro-Medium.eot');
+	src: url('./assets/fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+	url('./assets/fonts/GothamPro-Medium.woff') format('woff'),
+	url('./assets/fonts/GothamPro-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Black';
+	src: url('GothamPro-Black.eot');
+	src: url('GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+	url('./assets/fonts/GothamPro-Black.woff') format('woff'),
+	url('./assets/fonts/GothamPro-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 @media (min-width: 1200px) {
 	.container {
     	max-width: 1400px;
@@ -37,7 +67,18 @@ Author URI: http://dontforget.pro
 
 /*header.php*/
 .header-main-menu {
-	font-family: 'Gotham Pro Light';
+	font-family: 'Gotham Pro Regular';
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+
+header {
+	padding: 15px 0px;
 }
 
 ul {
@@ -64,6 +105,27 @@ ul {
 	justify-content: center;
 }
 
+.logo__shop-title {
+	font-family: 'Gotham Pro Black';
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+.logo__shop-title span {
+	font-family: 'Gotham Pro Black';
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #747474;
+}
+
 .media {
 	display: flex;
 	justify-content: flex-end;
@@ -83,8 +145,13 @@ a.media__circle-href {
 .feedback {
 	display: flex;
 	justify-content: flex-end;
-	font-family: 'Gotham Pro Bold';
-	font-size: 20px;	
+	font-family: 'Gotham Pro Medium';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: right;
 }
 
 .feedback a{
@@ -133,7 +200,7 @@ a.media__circle-href {
 	display: flex;
 	align-items: center;
 	padding: 15px;	
-	font-family: 'Gotham Pro Bold';
+	font-family: 'Gotham Pro Regular';
 }
 
 /*page-contacts.php*/
@@ -151,17 +218,6 @@ textarea {
 	font-size: 24px;
 }
 
-.logo__shop-title {
-	font-family: 'Gotham Pro Bold';
-	size: 22px;
-	font-size: 22px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 21px;
-	letter-spacing: 0em;
-	text-align: center;
-}
-
 /*single-product.php*/
 p.item-size-value {
 	color: #ff0000;
@@ -176,7 +232,7 @@ p.item-size-value {
 
 /*taxonomy-product_category.php*/
 .type-product {
-	border:6px solid #dbd7d2;
+	border: 6px solid #dbd7d2;
 }
 
 /*loop.php*/

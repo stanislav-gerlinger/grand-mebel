@@ -63,7 +63,7 @@
                             </a>    
                         </div>
                         <div class="logo__shop-title">
-                            <div class="logo__shop-title-diff">ТБ </div>ГРАНД
+                            <span>ТБ</span> Гранд
                         </div>
                     </div>
                 </div>
