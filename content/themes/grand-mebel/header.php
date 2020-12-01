@@ -56,11 +56,15 @@
                 </div>
                 <div class="col-sm-2">
                     <div class="logo">
-                        <a href="<?= home_url() ?>">
-                            <img title="Логотип"
-                                 src="https://sun9-12.userapi.com/impf/WALXT_rd_SGZVBiKZGDKuMmp45p48PXmCXVxpg/xSkvXvkpXJw.jpg?size=105x69&quality=90&proxy=1&sign=8d16c2763311dacf23fa8e03ad0685c1"
-                            >
-                        </a>
+                        <div class="logo__image">
+                            <a href="<?= home_url() ?>" class="">
+                                <img title="Логотип"
+                                 src="<?= get_template_directory_uri() ?>/assets/images/shop_logo.svg">
+                            </a>    
+                        </div>
+                        <div class="logo__shop-title">
+                            <div class="logo__shop-title-diff">ТБ </div>ГРАНД
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-2">
