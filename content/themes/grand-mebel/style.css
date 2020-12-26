@@ -164,7 +164,7 @@ a.media__circle-href {
 
 /*index.php*/
 .carousel-item {
-    height: 450px;
+    height: 700px;
 }
 
 .categories-item {
@@ -240,4 +240,9 @@ p.item-size-value {
 	width: 80%;
 	height: auto;
 	padding-left: 19%;
+}
+
+/*footer.php*/
+FOOTER {
+	background-color: #F9FBFE;
 }
