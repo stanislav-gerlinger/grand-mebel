@@ -5,7 +5,6 @@
  * @subpackage your-grand-mebel-template-3
  */
 get_header(); ?>
-archive-product.php
 <section>
 	<div class="container">
         <div class="row">

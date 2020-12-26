@@ -5,7 +5,6 @@
  * @subpackage your-grand-mebel-template-3
  */
 get_header(); ?>
-single-product.php
 <section>
     <div class="container">
   		<div class="row">
@@ -29,17 +28,17 @@ single-product.php
 	        				<div class="col-sm-6">
 	        					<div class="row">
 	        						<div class="col-sm-12">
-	        							<p class="item-size-value">Zalupa</p>
+	        							<p class="item-size-value">0.3</p>
 	        						</div>	        		
 	        					</div>
 	        					<div class="row">
 	        						<div class="col-sm-12">
-	        							<p class="item-size-value">Zalupa</p>	
+	        							<p class="item-size-value">0.4</p>	
 	        						</div>	        		
 	        					</div>
 	        					<div class="row">
 	        						<div class="col-sm-12">
-	        							<p class="item-size-value">Zalupa</p>	
+	        							<p class="item-size-value">0.4</p>	
 	        						</div>	        		
 	        					</div>
 	        				</div>
