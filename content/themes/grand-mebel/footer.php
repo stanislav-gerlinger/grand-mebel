@@ -10,13 +10,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-2">
-                    <div class="logo">
-                        <a href="http://grandmebel.loc/">
-                            <img title="Логотип"
-                                 src="https://sun9-12.userapi.com/impf/WALXT_rd_SGZVBiKZGDKuMmp45p48PXmCXVxpg/xSkvXvkpXJw.jpg?size=105x69&quality=90&proxy=1&sign=8d16c2763311dacf23fa8e03ad0685c1"
-                            >
-                        </a>
-                    </div>
+										<div class="logo">
+												<div class="logo__image">
+														<a href="<?= home_url() ?>" class="">
+																<img title="Логотип"
+																 src="<?= get_template_directory_uri() ?>/assets/images/shop_logo.svg">
+														</a>
+												</div>
+												<div class="logo__shop-title">
+														<span>ТБ</span> Гранд
+												</div>
+										</div>
                     <hr>
                     <div class="metka">
                         <a href="http://grandmebel.loc/">
@@ -84,15 +88,15 @@
 												</div>
 											</div>
                     <hr>
-                    <div class="media">
-                        <a href="https://vk.com/">
-                            <img src="https://sun9-15.userapi.com/impf/QvepP2_xJrZJqTfcGg1RFK0_66xGldryaJY-xA/RlO-WlUVteo.jpg?size=70x70&quality=90&proxy=1&sign=31316c3e73372553ae27f533920799af">
+										<div class="footer-media">
+                        <a href="https://vk.com/" class="media__circle-href">
+                            <img src="<?= get_template_directory_uri() ?>/assets/images/vk_icon.svg">
                         </a>
-                        <a href="https://instagram.com/">
-                            <img src="https://sun9-2.userapi.com/impf/oP1kyeaFpgR8MJRAee_xlWNeN7IHv-ThgJcn5A/XNYw_eegDPY.jpg?size=71x70&quality=90&proxy=1&sign=b1b8b8025aaa1735dbabf8bbd7da8765">
+                        <a href="https://instagram.com/" class="media__circle-href">
+                            <img src="<?= get_template_directory_uri() ?>/assets/images/instagram_icon.svg">
                         </a>
-                        <a href="https://facebook.com/">
-                            <img src="https://sun9-15.userapi.com/impf/QvepP2_xJrZJqTfcGg1RFK0_66xGldryaJY-xA/RlO-WlUVteo.jpg?size=70x70&quality=90&proxy=1&sign=31316c3e73372553ae27f533920799af">
+                        <a href="https://facebook.com/" class="media__circle-href">
+                            <img src="<?= get_template_directory_uri() ?>/assets/images/facebook_icon.svg">
                         </a>
                     </div>
                 </div>

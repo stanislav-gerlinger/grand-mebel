@@ -60,7 +60,7 @@
                             <a href="<?= home_url() ?>" class="">
                                 <img title="Логотип"
                                  src="<?= get_template_directory_uri() ?>/assets/images/shop_logo.svg">
-                            </a>    
+                            </a>
                         </div>
                         <div class="logo__shop-title">
                             <span>ТБ</span> Гранд
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="col-sm-2">
-                    <div class="media">
+                    <div class="header-media">
                         <a href="https://vk.com/" class="media__circle-href">
                             <img src="<?= get_template_directory_uri() ?>/assets/images/vk_icon.svg">
                         </a>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="feedback">
+                    <div class="header-feedback">
                         <a href="call-icon">
                             <img src="https://sun9-57.userapi.com/impf/VJi_j2S2C4hUtD5GQPDcB53tRjd4pHaRThgqKA/z8HJqsA7-CU.jpg?size=30x30&quality=90&proxy=1&sign=d8d9c0dcfff10b5d5972422ad52f29bf">
                         </a>
