@@ -19,22 +19,201 @@ Author URI: http://dontforget.pro
 	font-style: normal;
 }
 
-/*index.php*/
-.carousel-item {
-    height: 450px;
+@font-face {
+	font-family: 'Gotham Pro Light';
+	src: url('GothamPro-Light.eot');
+	src: url('GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+	url('./assets/fonts/GothamPro-Light.woff') format('woff'),
+	url('./assets/fonts/GothamPro-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
-/*page-about_us.php*/
+@font-face {
+	font-family: 'Gotham Pro Regular';
+	src: url('GothamPro.eot');
+	src: url('GothamPro.eot?#iefix') format('embedded-opentype'),
+	url('./assets/fonts/GothamPro.woff') format('woff'),
+	url('./assets/fonts/GothamPro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Medium';
+	src: url('./assets/fonts/GothamPro-Medium.eot');
+	src: url('./assets/fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+	url('./assets/fonts/GothamPro-Medium.woff') format('woff'),
+	url('./assets/fonts/GothamPro-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Black';
+	src: url('GothamPro-Black.eot');
+	src: url('GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+	url('./assets/fonts/GothamPro-Black.woff') format('woff'),
+	url('./assets/fonts/GothamPro-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media (min-width: 1200px) {
+	.container {
+    	max-width: 1400px;
+	}
+}
+
+/*header.php*/
+.header-main-menu {
+	font-family: 'Gotham Pro Regular';
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+
+header {
+	padding: 15px 0px;
+}
+
+ul {
+	justify-content: flex-start;
+	padding:0; 
+	margin:0;
+	width:100%;
+}
+
+.navbar {
+	padding: 0;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+	padding: 0;
+	margin-right: 20px;
+	padding: 15px 15px;
+}
+
+.logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo__shop-title {
+	font-family: 'Gotham Pro Black';
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+.logo__shop-title span {
+	font-family: 'Gotham Pro Black';
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #747474;
+}
+
+.media {
+	display: flex;
+	justify-content: flex-end;
+}
+
+a.media__circle-href {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+	margin-left: 19px;
+}
+
+.feedback {
+	display: flex;
+	justify-content: flex-end;
+	font-family: 'Gotham Pro Medium';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: right;
+}
+
+.feedback a{
+	margin-right: 11px;	
+}
+
+.feedback span{
+	margin-right: 9px;	
+}
+
+/*index.php*/
+.carousel-item {
+    height: 700px;
+}
+
+.categories-item {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	/* overflow: hidden; */
+	position: relative;
+}
+
+.categories-item:before {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 100px;
+	left: -5px;
+	top: 15px;
+	background: #7c401d;
+	border-radius: 5px;
+	/* transform: rotate(-90deg); */
+}
+
+.categories-item__image {
+	/* border-radius: 10px; */
+	height: 200px;
+	overflow: hidden;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.categories-item__title {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	padding: 15px;	
+	font-family: 'Gotham Pro Regular';
+}
+
+/*page-contacts.php*/
 textarea {
 	overflow: auto;
 	resize: none;
 	width: 73%;
 	height: 210px;
 }
-.page-about_us__form {
+.page-contacts__form {
 	padding-left: 17%;
 }
-.page-about_us__text{
+.page-contacts__text{
 	font-family: Century Gothic;
 	font-size: 24px;
 }
@@ -53,7 +232,7 @@ p.item-size-value {
 
 /*taxonomy-product_category.php*/
 .type-product {
-	border:6px solid #dbd7d2;
+	border: 6px solid #dbd7d2;
 }
 
 /*loop.php*/
@@ -62,37 +241,8 @@ p.item-size-value {
 	height: auto;
 	padding-left: 19%;
 }
-/*index.php*/
-.categories-item {
-	background: #FFFFFF;
-	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-	border-radius: 10px;
-	/* overflow: hidden; */
-	position: relative;
-}
-.categories-item:before {
-	content: '';
-	position: absolute;
-	width: 10px;
-	height: 100px;
-	left: -5px;
-	top: 15px;
-	background: #7c401d;
-	border-radius: 5px;
-	/* transform: rotate(-90deg); */
-}
-.categories-item__image {
-	/* border-radius: 10px; */
-	height: 200px;
-	overflow: hidden;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-}
 
-.categories-item__title {
-	height: 70px;
-	display: flex;
-	align-items: center;
-	padding: 15px;	
-	font-family: 'Gotham Pro Bold';
+/*footer.php*/
+FOOTER {
+	background-color: #F9FBFE;
 }

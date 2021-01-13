@@ -7,8 +7,8 @@
  */
 get_header(); ?>
     <div class="container">
-        <p class="page-about_us__text"><b>Мы компания Гранд мебель, иы продаем дерево, железо, двп, дсп и все что вы захотите!</b></p>
-        <div class="page-about_us__form">
+        <p class="page-contacts__text"><b>Мы компания Гранд мебель, иы продаем дерево, железо, двп, дсп и все что вы захотите!</b></p>
+        <div class="page-contacts__form">
             <section>
                 <form>
                     <fieldset>
