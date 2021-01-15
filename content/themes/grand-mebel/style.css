@@ -59,6 +59,12 @@ Author URI: http://dontforget.pro
 	font-style: normal;
 }
 
+@media (min-width: 992px) {
+	.container {
+    	max-width: 1900px;
+	}
+}
+
 @media (min-width: 1200px) {
 	.container {
     	max-width: 1400px;
@@ -92,10 +98,17 @@ ul {
 	padding: 0;
 }
 
-.navbar-expand-md .navbar-nav .nav-link {
+.menu-item {
+	padding-right: 20px;
+}
+
+.menu-item:last-child {
+	padding-right: 0px;
+}
+
+.menu-item a{
 	padding: 0;
-	margin-right: 20px;
-	padding: 15px 15px;
+	padding: 10px 10px;
 }
 
 .logo {
@@ -139,7 +152,11 @@ a.media__circle-href {
 	height: 30px;
 	border-radius: 50px;
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
-	margin-left: 19px;
+	margin-right: 19px;
+}
+
+a.media__circle-href:last-child {
+	margin-right: 0px;
 }
 
 .header-feedback {
@@ -155,59 +172,39 @@ a.media__circle-href {
 }
 
 .header-feedback a{
-	margin-right: 11px;
+	display: flex;
+	justify-content: center;
 }
 
-.header-feedback span{
-	margin-right: 9px;
+.phone-number-span {
+	display: flex;
+	justify-content: center;
+	padding-left: 0px;
 }
 
 /*index.php*/
 .carousel-item {
-    height: 800px;
+    height: 50%;
 }
 
 .carousel-control-prev-icon {
 	background-image: url('./assets/images/prev-button.svg');
-	width: 22px;
-	height: 30px;
-	margin-right: 3px;
+	background-position: 20px center;
+	background-size: 22px 30px;
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+	border: 3px solid #F2994A;
 }
 
 .carousel-control-next-icon {
 	background-image: url('./assets/images/next-button.svg');
-	width: 22px;
-	height: 30px;
-	margin-left: 3px;
-}
-
-.carousel-control-prev {
-	margin: 365px 279px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
+	background-position: 22px center;
+	background-size: 22px 30px;
 	width: 70px;
 	height: 70px;
 	border-radius: 50px;
-	background: rgba(0, 0, 0, 0.5);
 	border: 3px solid #F2994A;
-	box-sizing: border-box;
-	backdrop-filter: blur(15px);
-}
-
-.carousel-control-next {
-	margin: 365px 279px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 70px;
-	height: 70px;
-	border-radius: 50px;
-	background: rgba(0, 0, 0, 0.5);
-	border: 3px solid #F2994A;
-	box-sizing: border-box;
-	backdrop-filter: blur(15px);
 }
 
 .categories-item {
@@ -244,12 +241,12 @@ a.media__circle-href {
 }
 
 .footer-main-menu__head {
-		padding-bottom: 13px;
-		font-family: 'Gotham Pro Bold';
-		font-style: normal;
-		font-weight: bold;
-		font-size: 18px;
-		line-height: 17px;
+	padding-bottom: 13px;
+	font-family: 'Gotham Pro Bold';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 17px;
 }
 
 .footer-main-menu a {
