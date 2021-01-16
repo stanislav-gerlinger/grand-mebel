@@ -212,6 +212,7 @@ a.media__circle-href:last-child {
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
 	position: relative;
+	margin-bottom: 10px;
 }
 
 .categories-item:before {
@@ -326,7 +327,7 @@ FOOTER {
 	background-color: #F9FBFE;
 	padding-top: 70px;
 	margin-top: 130px;
-	padding-bottom: 81px;
+	padding-bottom: 61px;
 }
 
 FOOTER .logo {
@@ -373,9 +374,9 @@ FOOTER .logo {
 	align-items: center;
 	justify-content: center;
 	font-family: 'Gotham Pro Medium';
-	font-size: 20px;
+	font-size: 20px !important;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 400 !important;
 	line-height: 26px;
 	letter-spacing: 0em;
 	margin-top: 10px;
@@ -385,4 +386,8 @@ FOOTER .logo {
 	display: flex;
 	justify-content: center;
 	margin-top: 55px;
+}
+
+.footer-contacts {
+
 }
